@@ -1,0 +1,6 @@
+README
+
+Before running the file main.py, please make sure that
+- The following modules are installed: tqdm, numpy, PIL, torch, torchvision, sklearn;
+- The directory and file names for the code and data are set correctly in the VARIABLES - User defined variables section;
+- A gpu is available on your machine.
