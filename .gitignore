@@ -1,0 +1,11 @@
+#ignore files created by vscode and juppyternotebook
+.DS_Store
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+#ignore files that are not needed
+task3/food.zip
+task3/food
+task3/trans_food.zip
+task3/trans_food
