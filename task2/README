@@ -1,0 +1,8 @@
+Introduction to Machine Learning
+Task 2 - Medical Events Prediction
+Authors: M. Melennec, G. Pacifico, L. Tortora
+
+
+Before running file main.py, please make sure that the following requirements are met:
+- Have the following libraries available: numpy, pandas, matplolib, seaborn and sklearn;
+- All paths in the VARIABLES section are set according to the paths on your local computer.

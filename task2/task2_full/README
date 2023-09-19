@@ -1,0 +1,10 @@
+Introduction to Machine Learning
+Task 2 - Medical Events Prediction
+Authors: M. Melennec, G. Pacifico, L. Tortora
+
+
+Before running file main.py, please make sure that the following requirements are met:
+- Have the following libraries available: numpy, pandas, matplolib, seaborn and sklearn;
+- Set the dir variable (in the VARIABLES section of the code) to the directory where the data is saved, and adapt all paths to your local requirements;
+- When running the code for the first time, please make sure that the variable transform_feat is set to True. This will perform a feature transformation and save the transformed data (for training and testing data) in the files specified by trans_train_feat_path and trans_test_feat_path, respectively. The patient ids are also saved in the file at test_pids_path. Once those files have been created, transform_feat may be set to False, and the files at trans_train_feat_path and trans_test_feat_path will be used to avoid transforming the same features multiple times. The pids will be recovered from test_pids_path;
+- If the correlation matrix between the features and the labels wants to be saved, the variable save_correlation_fig should be set to True, in which case the figure will be saved at the path in correlation_path.
